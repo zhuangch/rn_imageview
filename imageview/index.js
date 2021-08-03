@@ -1,6 +1,6 @@
 
-import { NativeModules } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-const { RNImageview } = NativeModules;
+const RNImageView = requireNativeComponent('RNImageView', null);
 
-export default RNImageview;
+export default RNImageView;

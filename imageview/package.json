@@ -1,5 +1,5 @@
 {
-  "name": "react-native-imageview",
+  "name": "@zhuangch/react-native-imageview",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,5 +13,9 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:zhuangch/rn_imageview.git"
+   }
 }

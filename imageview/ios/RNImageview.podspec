@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "RNImageview"
+  s.name         = "@zhuangch/RNImageview"
   s.version      = "1.0.0"
   s.summary      = "RNImageview"
   s.description  = <<-DESC

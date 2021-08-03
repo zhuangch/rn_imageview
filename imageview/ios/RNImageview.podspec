@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
-  s.name         = "@zhuangch/RNImageview"
+  s.name         = "RNImageView"
   s.version      = "1.0.0"
-  s.summary      = "RNImageview"
+  s.summary      = "RNImageView"
   s.description  = <<-DESC
                   RNImageview
                    DESC
@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNImageview.git", :tag => "master" }
-  s.source_files  = "RNImageview/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/zhuangch/rn_imageview.git", :tag => "main" }
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 

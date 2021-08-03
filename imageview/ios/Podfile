@@ -1,3 +1,0 @@
-target ‘RNImageview’ do
-    pod 'SDWebImage'
-end

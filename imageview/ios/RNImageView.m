@@ -192,10 +192,21 @@ static NSDictionary *onLoadParamsForSource(RCTImageSource *source)
   }
 }
 
++ (UIImage*)imageWithContentsOfURL:(NSURL*)url
+{
+    NSError* error;
+    NSData* data = [NSURLConnection sendSynchronousRequest:[NSURLRequest requestWithURL:url] returningResponse:NULL error:NULL];
+    if(error || !data) {
+        return nil;
+    } else {
+        return [UIImage imageWithData:data];
+    }
+}
+
 - (void)setDefaultSource:(NSString  *)defaultSource
 {
     _defaultSource = [defaultSource copy];
-    _defaultImage = [UIImage imageWithContentsOfURL:[NSURL URLWithString:defaultSource]];
+    _defaultImage = [[self class] imageWithContentsOfURL:[NSURL URLWithString:defaultSource]];
 }
 
 - (void)setForegroundColor:(UIColor *)foregroundColor

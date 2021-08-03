@@ -1,6 +1,6 @@
 {
   "name": "@zhuangch/react-native-imageview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "react-native": "^0.41.2"
   },
   "repository": {
-      "type": "git",
-      "url": "git@github.com:zhuangch/rn_imageview.git"
-   }
+    "type": "git",
+    "url": "git@github.com:zhuangch/rn_imageview.git"
+  }
 }
